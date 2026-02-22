@@ -8,7 +8,7 @@ A tiny interpreted programming language written in C++20.
 * Lexer / Parser / AST
 * Tree-walking interpreter
 * Dynamic values (number, string)
-* Basic arithmetic + function call (`print`)
+* Basic arithmetic + function call (`println`)
 * Custom `.mdl` script execution
 
 ## Build
