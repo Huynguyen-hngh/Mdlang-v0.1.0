@@ -1,0 +1,36 @@
+func main() {
+
+    integer a = 10;
+    integer b = 20;
+    integer sum = a + b;
+    println << "1. Ket qua phep cong integer (10 + 20): " << sum << linedone;
+
+
+    float pi = 3.14;
+    float r = 5.0;
+    float area = pi * r * r;
+    println << "2. Dien tich hinh tron (radius=5): " << area << linedone;
+
+
+    string name = "MDlang";
+    string version = "1.0";
+    println << "3. Chao mung ban den voi " << name << " phien ban " << version << linedone;
+
+
+    integer score = 85;
+    println << "4. Kiem tra If/Else voi score = 85:";
+    if (score == 85) {
+        println << "   >> Chuc mung! Ban dat diem tuyet doi." << linedone;
+    } else {
+        println << "   >> Ban can co gang hon." << linedone;
+    }
+
+
+    integer count = 3;
+    println << "5. Chay vong lap While tu 3 ve 1:";
+    while (count == 3) {
+        println << "   >> Dang chay loop..." << linedone;
+        count = 0;
+    
+    println << "--- KET THUC TEST ---" << linedone;
+}
