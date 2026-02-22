@@ -20,7 +20,7 @@ g++ -std=c++20 -Wall -Wextra -Wpedantic -O2 -I. *.cpp -o mdlang.exe
 ## Run
 
 ```bash
-mdlang.exe
+mdlang.exe test.mdl
 ```
 
 ## Example
