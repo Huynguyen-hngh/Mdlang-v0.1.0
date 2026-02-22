@@ -14,20 +14,19 @@ A tiny interpreted programming language written in C++20.
 ## Build
 
 ```bash
-g++ -std=c++20 -Wall -Wextra -Wpedantic -O2 -I. *.cpp -o mdlang
+g++ -std=c++20 -Wall -Wextra -Wpedantic -O2 -I. *.cpp -o mdlang.exe
 ```
 
 ## Run
 
 ```bash
-./mdlang test.mdl
+mdlang.exe
 ```
 
 ## Example
 
 ```
-print("Hello MDlang")
-print(3.14 * 10)
+println << "Hello Mdlang" << linedone;
 ```
 
 ## Roadmap
