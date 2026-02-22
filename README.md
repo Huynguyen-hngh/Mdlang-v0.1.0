@@ -1,5 +1,5 @@
 
-# MDlang (v0.0.1)
+# MDlang (v0.1.0)
 
 A tiny interpreted programming language written in C++20.
 
