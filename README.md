@@ -72,7 +72,7 @@ Mdlang currently includes:
 * Tree-walking interpreter
 * Basic numeric & string handling
 * Expression evaluation
-* `print` output
+* `println` output
 
 This is an early foundation to experiment with semantics and structure.
 
